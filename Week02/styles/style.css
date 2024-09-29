@@ -1,0 +1,34 @@
+/* Callout Class */
+.callout {
+    max-width: 80%; /* Maximum width of the callout container */
+    margin: auto; /* Centers the callout on the page */
+    border: 1px solid #FFFFFF; /* Optional border to define the container */
+    padding: 5%; /* Padding inside the callout */
+    background-color: #055cb8; /* Background color of the callout */
+    color: white; /* Text color */
+}
+
+/* Image Styling */
+.callout img {
+    float: right; /* Position image to the right of the text */
+    margin: 0 0 10px 20px; /* Margin to provide space around the image */
+    border: 2px solid #040403; /* Border around the image */
+    padding: 5px; /* Padding inside the image border */
+    background-color: #FFFFFF; /* Background color around the image */
+    width: 80px; /* Set width of the image */
+    height: auto; /* Keeps aspect ratio */
+}
+
+/* Blockquote Styling */
+blockquote {
+    margin-right: 165px; /* Margin to create space for the image */
+}
+
+/* Cite Styling */
+cite {
+    display: block; /* Allows cite to occupy its own line */
+    border-top: 1px solid #D0D0D0; /* Top border for separation */
+    padding-top: 10px; /* Padding above the cite text */
+    text-align: right; /* Aligns the cite text to the right */
+    font-size: 14px; /* Sets the size of the font */
+}
