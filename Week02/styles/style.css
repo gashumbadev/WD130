@@ -32,3 +32,6 @@ cite {
     text-align: right; /* Aligns the cite text to the right */
     font-size: 14px; /* Sets the size of the font */
 }
+p{
+    color: rgb(0, 0, 41);
+}
