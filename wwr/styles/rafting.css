@@ -1,0 +1,134 @@
+/* Define color scheme and font variables */
+:root {
+    --primary-color: #001524;      /* Deep Navy */
+    --secondary-color: #15616D;    /* Teal */
+    --accent-color: #FFECD1;       /* Pale Peach */
+    --highlight-color: #FF7D00;    /* Vibrant Orange */
+    --dark-accent-color: #78290F;  /* Dark Maroon */
+    --text-color: #0b2030;         /* Primary text in Navy */
+}
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--accent-color);
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--primary-color);
+}
+
+header a {
+    color: var(--accent-color);
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: var(--highlight-color);
+}
+
+.logo {
+    height: 100px;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+    padding: 40px 0;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0.8;
+}
+
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Merriweather', serif;
+    font-size: 3rem;
+}
+
+/* Article and Section Styling */
+article {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--highlight-color);
+    color: var(--dark-accent-color);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.client-img {
+    width: 300px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+/* Section Styling */
+section {
+    padding: 50px;
+    margin: 20px;
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+    border-radius: 8px;
+}
+
+section h2 {
+    font-family: 'Merriweather', serif;
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+/* Remove underlines from social media links */
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover img {
+    filter: brightness(1.2);
+}
+
+/* Optional Width Limiting */
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}

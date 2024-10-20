@@ -26,6 +26,7 @@ p {
 }
 main {
     max-width: 840px;
+    border-radius: 50px;
 }
 
 aside {
@@ -35,6 +36,7 @@ aside {
     padding: 20px;
     background-color: black;
     color: goldenrod;
+    float: right;
 
 }
 
@@ -49,5 +51,6 @@ footer {
     padding-top: 10px;
     border-top: 2px dotted blue;
     text-align: center;
+    clear: both;
 }
 
