@@ -243,6 +243,10 @@ footer a:hover img {
     margin-right: 5px;
 }
 
+#purpose {
+    display: inline;
+}
+
 #contact-form button {
     background-color: var(--primary-color);
     color: var(--light-accent-color);
