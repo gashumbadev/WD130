@@ -240,11 +240,8 @@ footer a:hover img {
 }
 
 #contact-form input[type="radio"] {
-    margin-right: 5px;
-}
-
-#purpose {
-    display: inline;
+    margin-right: 50px;
+    display: flex;
 }
 
 #contact-form button {
@@ -259,4 +256,9 @@ footer a:hover img {
 
 #contact-form button:hover {
     background-color: var(--highlight-color);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--accent-color);
 }
