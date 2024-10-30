@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to the White Water Rafting adventure site. Join us for thrilling experiences on the river!">
+  <title>Home - White Water Rafting</title>
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+
+  <header>
+    <img src="images/logo.png" alt="WWR Logo" class="logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <img src="images/hero2.jpg" alt="Whitewater Rafting Adventure" class="hero-img">
+      <h1>Discover the Adventure of a Lifetime!</h1>
+      <!-- Call to Action -->
+        <section class="cta">
+            <h2>Ready for the Ultimate Adventure?</h2>
+            <p>Check out our trips and start planning your adventure today!</p>
+            <a href="trips.html" class="btn">Explore Our Trips</a>
+         </section>
+    </section>
+
+    <!-- Newsletter Signup Form -->
+    <section class="newsletter">
+      <h2>Join Our Newsletter</h2>
+      <form action="newsletter_signup.php" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">Sign Up</button>
+      </form>
+    </section>
+
+<!-- Services Section -->
+  <section class="services">
+    <div class="service">
+      <img src="images/rivers.jpg" alt="Rivers">
+      <p>Rivers</p>
+    </div>
+    <div class="service">
+      <img src="images/camping.jpg" alt="Camping">
+      <p>Camping</p>
+    </div>
+    <div class="service">
+      <img src="images/rapids.jpg" alt="Rapids">
+      <p>Rapids</p>
+    </div>
+  </section>
+
+
+    <section class="adventure-section">
+        <div class="image-container">
+          <img src="images/rafting-home.jpg" alt="Breathtaking Scenery">
+        </div>
+        <div class="text-content">
+          <h2>More Than Just The Thrill</h2>
+          <p>
+            Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; 
+            it’s way more than just the rapids. It’s a great way to get away from it all 
+            and relax amongst all the beauty of the great outdoors.
+          </p>
+          <button class="join-btn">Join Us</button>
+        </div>
+      </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 White Water Rafting | Designed by Paul</p>
+    <div class="social-icons">
+      <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
+      <a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a>
+      <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
+    </div>
+  </footer>
+
+</body>
+</html>
