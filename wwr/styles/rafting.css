@@ -127,7 +127,7 @@ article img.client-img {
 section {
     padding: 20px;
     margin: 20px;
-    color: var(--primary-color)
+    color: var(--primary-color);
     border-radius: 10px;
 }
 
